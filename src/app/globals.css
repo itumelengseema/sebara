@@ -32,3 +32,15 @@ body {
 .bg-span {
   color: #f15b24b9;
 }
+.Values {
+  background-image: url('../Assests/Images/pexels-masoodaslami-10786517.jpg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
+.thick-hr {
+  border: none; 
+  height: 2px; 
+  background-color: #ffffff; 
+  margin: 20px 0;
+}
