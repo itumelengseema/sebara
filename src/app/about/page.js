@@ -4,12 +4,11 @@ import React from 'react';
 function page() {
   return (
     <>
-    <div>
-      <h1>About Page</h1>
-    </div>
-    <Header />
+      <Header />
+      <div className="d-flex justify-content-center align-items-center vh-100">
+        <h1>About Page</h1>
+      </div>
     </>
-   
   );
 }
 

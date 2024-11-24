@@ -1,6 +1,6 @@
 
 import localFont from 'next/font/local';
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../app/lux-bootstrap.main.css"
 import BootstrapClient from '@/components/common/BootstrapClient';
 
 import './globals.css';

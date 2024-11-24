@@ -1,5 +1,3 @@
-
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -16,4 +14,21 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  background-image: url('../Assests/Images//pexels-thirdman-8470038.jpg.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 85vh;
+}
+.line {
+  width: 85px;
+  border: #f15b24b9 1px solid;
+
+  display: inline-flex;
+  justify-content: b;
+}
+.bg-span {
+  color: #f15b24b9;
 }

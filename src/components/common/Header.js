@@ -4,11 +4,11 @@ import logo from '@/Assests/Branding/logo.svg';
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-body-tertiary px-5 sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)">
-          Logo
-        </a>
+        <Link class="navbar-brand" href="javascript:void(0)">
+          <Image src={logo} alt="logo" width={200} />
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -17,24 +17,25 @@ const Header = () => {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto justify-content-center">
+        <div class="collapse navbar-collapse " id="mynavbar">
+          <ul className="navbar-nav   mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">
-                Link
-              </a>
+              <Link class="nav-link  text-dark" href="/">
+                Home
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">
-                Link
-              </a>
+              <Link class="nav-link  text-dark" href="/about">
+                About-Us
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">
-                Link
-              </a>
+              <Link class="nav-link  text-dark" href="/our_projects">
+                Projects
+              </Link>
             </li>
           </ul>
+          <button class="btn btn-outline-dark btn-sm ">Contact Us</button>
         </div>
       </div>
     </nav>
