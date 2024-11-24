@@ -39,8 +39,57 @@ body {
   min-height: 90vh;
 }
 .thick-hr {
-  border: none; 
-  height: 2px; 
-  background-color: #ffffff; 
+  border: none;
+  height: 2px;
+  background-color: #ffffff;
   margin: 20px 0;
+}
+.projects-container {
+  max-height: 500px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.card {
+  min-height: 200px; /* Set min height for a consistent card size */
+}
+
+.project-scroll-container {
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* Card styling */
+.card {
+  scroll-snap-align: start;
+}
+
+.fixed-image {
+  width: 90%;
+  height: 280px;
+  object-fit: cover;
+}
+
+/* Scroll indicator styling */
+.scroll-indicator {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.scroll-indicator span {
+  padding: 0.2rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Mobile-specific styling */
+@media (max-width: 576px) {
+  .project-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }
