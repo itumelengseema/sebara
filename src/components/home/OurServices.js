@@ -5,7 +5,7 @@ export default function OurServices() {
     <section className="our-services py-5" id="#Services">
       <div className="container p-5">
         <h2 className="display-10 text-sm-left text-capitalize fw-normal mb-5">
-          Our Services <span class="line"></span>
+          Our Services <span className="line"></span>
         </h2>
         <div className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
@@ -47,12 +47,12 @@ export default function OurServices() {
             </div>
           </div>
 
-          <div class="col">
-            <div class="card h-100 border-0 ">
-              <div class="card-body text-center">
-                <div class="icon mb-4">
+          <div className="col">
+            <div className="card h-100 border-0 ">
+              <div className="card-body text-center">
+                <div className="icon mb-4">
                   <span
-                    class="iconify"
+                    className="iconify"
                     data-icon="game-icons:crane"
                     data-width="60"
                     data-height="60"
@@ -61,8 +61,8 @@ export default function OurServices() {
 
                   <Icon icon="game-icons:crane" width="60" height="60" />
                 </div>
-                <h5 class="card-title">Infrastructure Development</h5>
-                <p class="card-text">
+                <h5 className="card-title">Infrastructure Development</h5>
+                <p className="card-text">
                   Comprehensive infrastructure development services to support
                   sustainable growth.
                 </p>
@@ -70,14 +70,14 @@ export default function OurServices() {
             </div>
           </div>
 
-          <div class="col">
-            <div class="card h-100 border-0 ">
-              <div class="card-body text-center">
-                <div class="icon mb-4">
+          <div className="col">
+            <div className="card h-100 border-0 ">
+              <div className="card-body text-center">
+                <div className="icon mb-4">
                   <Icon icon="la:project-diagram" width="60" height="60" />
                 </div>
-                <h5 class="card-title">Project Management</h5>
-                <p class="card-text">
+                <h5 className="card-title">Project Management</h5>
+                <p className="card-text">
                   Professional project management for efficient, on-time project
                   delivery.
                 </p>
@@ -89,7 +89,6 @@ export default function OurServices() {
             <div className="card h-100 border-0 ">
               <div className="card-body text-center">
                 <div className="icon mb-4">
-            
                   <Icon icon="solar:delivery-outline" width="60" height="60" />
                 </div>
                 <h5 className="card-title">Supplies</h5>
@@ -106,7 +105,6 @@ export default function OurServices() {
             <div className="card h-100 border-0 ">
               <div className="card-body text-center">
                 <div className="icon mb-4">
-           
                   <Icon icon="clarity:tools-line" width="60" height="60" />
                 </div>
                 <h5 className="card-title">Specialized Services</h5>

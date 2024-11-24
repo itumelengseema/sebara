@@ -1,13 +1,8 @@
-
 import localFont from 'next/font/local';
-import "../app/lux-bootstrap.main.css"
+import '../app/lux-bootstrap.main.css';
 import BootstrapClient from '@/components/common/BootstrapClient';
 
 import './globals.css';
-
-
-
-
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -27,19 +22,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
-
   return (
     <html lang="en">
       <head></head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-     
         {children}
         <BootstrapClient />
-
- 
       </body>
     </html>
   );
