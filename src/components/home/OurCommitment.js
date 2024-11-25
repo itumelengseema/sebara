@@ -6,7 +6,7 @@ export default function OurCommitment() {
     <section className="Commitment py-5 bg-primary "  id="Services">
       <div className="container px-5 ">
         <h2 className="display-10 text-sm-left text-capitalize fw-normal mb-5 text-light">
-          Our Commitment <span class="line"></span>
+          Our Commitment <span className="line"></span>
         </h2>
         <div className="row row-cols-1 row-cols-md-3 g-4 ">
           
