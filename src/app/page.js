@@ -1,3 +1,4 @@
+import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
 import HeroSection from '@/components/home/HeroSection';
 import OurCommitment from '@/components/home/OurCommitment';
@@ -14,6 +15,7 @@ export default function Home() {
       <OurValues />
       <OurCommitment />
       <OurServices />
+      <Footer />  
     </>
   );
 }
