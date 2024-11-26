@@ -50,7 +50,7 @@ body {
 }
 
 .card {
-  min-height: 200px; /* Set min height for a consistent card size */
+  min-height: 200px;
 }
 
 .project-scroll-container {
@@ -92,4 +92,10 @@ body {
     overflow-x: auto;
     white-space: nowrap;
   }
+}
+.about_hero {
+  background-image: url('../Assests/Images/about_hero.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 85vh;
 }
