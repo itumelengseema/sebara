@@ -9,13 +9,13 @@ import OurValues from '@/components/home/OurValues';
 export default function Home() {
   return (
     <>
-      <Header />
+     
       <HeroSection />
       <OurProjects />
       <OurValues />
       <OurCommitment />
       <OurServices />
-      <Footer />  
+   
     </>
   );
 }

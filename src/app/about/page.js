@@ -3,14 +3,13 @@ import Header from '@/components/common/Header';
 
 import React from 'react';
 import AboutHero from '@/components/about/AboutHeroSection';
+import Accreditations from '@/components/about/Accreditations';
 
 function page() {
   return (
     <>
-      <Header />
-
       <AboutHero />
-      <Footer />
+      <Accreditations />
     </>
   );
 }
