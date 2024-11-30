@@ -1,10 +1,8 @@
-import Footer from '@/components/common/Footer';
-import Header from '@/components/common/Header';
-
+// Code: About page
 import React from 'react';
 import AboutHero from '@/components/about/AboutHeroSection';
 import Accreditations from '@/components/about/Accreditations';
-import History from '@/components/about/history';
+import History from '@/components/about/History';
 
 function page() {
   return (
