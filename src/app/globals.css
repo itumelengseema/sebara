@@ -16,6 +16,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 .hero {
   background-image: url('../Assests/Images//pexels-thirdman-8470038.jpg.png');
   background-size: cover;
@@ -99,7 +100,6 @@ body {
   background-position: center;
   min-height: 85vh;
 }
-
 
 /* Projects Section */
 .image-container {

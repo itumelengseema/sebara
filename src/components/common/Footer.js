@@ -7,7 +7,7 @@ import logo_white from '@/Assests/Branding/white_logo.svg';
 
 export default function Footer() {
   return (
-    <footer className=" bg-primary text-light ">
+    <footer className=" bg-primary text-light " id="footer">
       <div className="container p-5 align-items-center justify-content-between px-5">
         <div className="row ">
           <div className="col-md-4 ">

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default function AboutHeroSection() {
   return (
@@ -17,9 +18,9 @@ export default function AboutHeroSection() {
               into a premier construction and civil engineering company,driven
               by our commitment to excellence and innovation.
             </p>
-            <button className="btn btn-secondary  d-inline-block">
+            <Link href="/#footer" className="btn btn-secondary  d-inline-block">
               Contact Us
-            </button>
+            </Link>
           </div>
           <div className="col-12 col-lg-6"></div>
         </div>
