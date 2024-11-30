@@ -1,8 +1,10 @@
 import localFont from 'next/font/local';
-import "../app/lux-bootstrap.main.css";
+import '../app/lux-bootstrap.main.css';
 import BootstrapClient from '@/components/common/BootstrapClient';
+import Header from '@/components/common/Header';
 
 import './globals.css';
+import Footer from '@/components/common/Footer';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -29,8 +31,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
         {children}
         <BootstrapClient />
+        <Footer />
       </body>
     </html>
   );

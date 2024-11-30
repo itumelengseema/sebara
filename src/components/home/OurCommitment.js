@@ -3,7 +3,7 @@ import React from 'react'
 export default function OurCommitment() {
   return (
    
-    <section className="Commitment py-5 bg-primary "  id="Services">
+    <section className="Commitment py-5 bg-primary "  >
       <div className="container px-5 ">
         <h2 className="display-10 text-sm-left text-capitalize fw-normal mb-5 text-light">
           Our Commitment <span className="line"></span>
