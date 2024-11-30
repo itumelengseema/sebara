@@ -13,7 +13,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .hero {
@@ -63,7 +63,6 @@ body {
 .card {
   scroll-snap-align: start;
 }
-
 
 .fixed-image {
   width: 90%;
