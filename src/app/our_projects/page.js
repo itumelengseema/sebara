@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from '@/components/common/Header';
 import Footer from '@/components/common/Footer';
+import ProjectHistory from '@/components/projectsHistory/ProjectHistory';
+import FAQSection from '@/components/projectsHistory/FAQSection';
 export default function page() {
   return (
     <>
-      <div className="d-flex justify-content-center align-items-center vh-100">
-        <h1>Projects Page</h1>
-      </div>
+      <ProjectHistory />
+      <FAQSection />
     </>
   );
 }

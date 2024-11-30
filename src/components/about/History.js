@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import picture from '../../Assests/Images/Construction worker-pana.svg';
+import picture from '../../Assests/Images/Construction-pana.svg';
 
 /**
  * History component renders a section that provides information about the company's background and values.

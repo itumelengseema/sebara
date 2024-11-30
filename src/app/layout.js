@@ -2,6 +2,7 @@ import localFont from 'next/font/local';
 import '../app/lux-bootstrap.main.css';
 import BootstrapClient from '@/components/common/BootstrapClient';
 import Header from '@/components/common/Header';
+import 'font-awesome/css/font-awesome.min.css';
 
 import './globals.css';
 import Footer from '@/components/common/Footer';
