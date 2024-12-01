@@ -32,7 +32,7 @@ const Header = () => {
           className=" d-lg-none" // This ensures it only appears on screens smaller than large (lg)
           onClick={toggleMenu}
           aria-expanded={isOpen}
-          style={{ border: 'none', background: 'transparent' }}
+          style={{ border: 'none', color: 'grey', padding: '10px' }}
         >
           {/* Toggle between fa-bars and fa-x using FontAwesomeIcon */}
           <FontAwesomeIcon
